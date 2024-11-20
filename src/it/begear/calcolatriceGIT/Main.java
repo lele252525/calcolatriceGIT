@@ -10,7 +10,6 @@ public class Main {
         int a = 1;
         int b = 2;
 
-        System.out.println("Somma: " + Calcoli.somma(a,b));
-
+        System.out.println("Somma: " + Calcoli.somma(a, b));
     }
 }
