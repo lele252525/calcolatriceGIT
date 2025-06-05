@@ -16,4 +16,15 @@ public class Calcoli {
     public static int potenza(int base, int esponente) {
         return (int) Math.pow(base, esponente);
     }
+    
+    /**
+     * @param fattoreUno  Primo fattore della moltiplicazione
+     * @param fattoreDue  Secondo fattore della moltiplicazione 
+     * @return moltiplicazione fattori
+     * @author Daniele Costa
+     */
+    
+    public static int moltiplicazione(int fattoreUno, int fattoreDue) {
+    	return fattoreUno * fattoreDue;
+    }
 }
